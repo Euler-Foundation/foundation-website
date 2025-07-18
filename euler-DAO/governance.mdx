@@ -7,9 +7,9 @@ description: "An overview of the governance system for tokenholders of EUL"
 
 The code for Euler Protocol is controlled by a decentralised community through on-chain governance on the Ethereum network. The community are holders of a protocol-native governance token called EUL (pronounced 'oil'), which enables the community to effect change over the Euler Protocol code. Tokens can be used to propose upgrades to the protocol or vote on the proposals of others.
 
-## **Token Utility**
+## **EUL Token Utility**
 
-- **Governance**: EUL tokens grant holders the ability to vote on protocol changes and treasury management.
+- **Governance**: EUL tokens grant holders the ability to vote on protocol changes and treasury management. One EUL token is equivalent to one vote. 
 - **Fee Flow Auctions**: EUL is used in auctions to distribute protocol fees.
 - **Rewards**: EUL is distributed as rewards to users for participating in the protocol.
 
@@ -31,6 +31,14 @@ If and only if the proposal includes changes to the smart contract, the proposal
 It is noteworthy that not all off-chain proposals that are either binding or non-binding on the protocols smart contracts will end up having an on-chain proposal depending on the outcome of the off-chain 'gas-less' voting and for gas cost savings. On the other hand, not all on-chain proposals will require an off-chain counterpart.
 
 Depending on the outcome of an off-chain voting process, an on-chain proposal might be created which will be executed against a target protocol smart contract if successful.
+
+## Governance Parameters
+
+|                        | **Onchain (Tally)** | **Offchain (Snapshot)** |
+| ---------------------- | ------------------- | ----------------------- |
+| **Proposal Threshold** | 75,000 EUL          | 500 EUL                 |
+| **Quorum**             | 815,480 EUL         | 50,000 EUL              |
+| **Voting Period**      | 2 days              | 5 days                  |
 
 ## Protocol Code
 
